@@ -1,0 +1,62 @@
+#screaming{
+    width: 400px;
+    height:400px;
+    display:block;
+    margin:auto;
+    margin-top: 5%;
+    border:5px solid aquamarine;
+    box-shadow: 2px 2px 2px black;
+}
+ #error{
+     /* margin-top: 11%; */
+    color:aquamarine;
+    text-align: center;
+    font-size:70px;
+    font-family: happy;
+    text-shadow: 3px 4px grey;
+    line-height: 120px;
+} 
+
+#errorDiv{
+    margin-top: -40px;
+    padding-top:200px;
+    background-color: rgb(193, 188, 181,0.5);
+}
+
+@media screen and (max-width:1560px){
+    #errorDiv{ 
+        padding-top:260px;
+          
+    }
+    #error{
+       font-size: 50px; 
+    }
+}
+
+@media screen and (max-width:920px){
+    #errorDiv{ 
+        padding-top:320px;
+
+    }
+    #error{
+        font-size: 50px; 
+     }
+}
+
+@media screen and (max-width:625px){
+    #errorDiv{ 
+        padding-top:420px;
+    }
+    #error{
+        font-size: 50px; 
+     }
+}
+@media screen and (max-width:585px){
+    #errorDiv{ 
+       padding-top:470px;
+
+    }
+    #error{
+        font-size: 40px; 
+     }
+}

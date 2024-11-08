@@ -1,0 +1,30 @@
+#headerC{
+    margin-top: 190px;
+}
+
+@media screen and (max-width: 1000px) {
+    #headerC{
+        margin-top:150px;
+       
+    }
+}
+
+@media screen and (max-width: 920px) {
+    #headerC{
+        margin-top: 245px;
+       
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #headerC{
+        margin-top: 290px;
+        
+    }
+}
+@media screen and (max-width:590px) {
+    #headerC{
+        margin-top: 380px;
+        
+    }
+}

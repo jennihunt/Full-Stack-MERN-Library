@@ -1,0 +1,83 @@
+#searchInput{
+    display:block;
+    margin:auto;
+    width:350px;
+    font-size:35px;
+    text-align: center;
+    background-color: rgb(179, 176, 176);
+}
+.clickBtn{
+    background-color: rgb(192, 255, 246)!important;
+    width:25% !important;
+    font-size:25px !important;
+    box-shadow: 3px 6px grey;
+    border-radius: 25px;
+}
+
+.clickBtn:active{
+  transform:translateY(4px)
+}
+.checkoutlabel{
+  padding: 2%;
+  background-color: rgb(156, 191, 180);
+  font-size: 25px ;
+  display: block;
+  margin: auto;
+}
+.loginInfo {
+    font-size: 35px;
+    width: 90%;
+    padding: 15px;
+    margin-top: 2%;
+    margin-left: 5%;
+    border: 1px solid rgb(202, 190, 190);
+    background: #f1f1f1;
+    border-radius: 25px;
+    box-shadow: 4px 5px 3px grey, 5px 7px 5px rgb(0, 234, 255);
+  }
+  #checkOutBtn {
+    border-radius: 25px;
+    background-color: rgb(116, 208, 177);
+    margin-left: 2%;
+  }
+
+  .btn {
+    width: 97.5%;
+    background-color: rgb(43, 231, 168);
+    border-radius: 25px;
+    margin-left: 2%;
+    font-size: 40px;
+    font-family: stencil;
+  }
+  
+  .btn:hover {
+    background-color: rgb(116, 208, 177);
+  }
+  
+  #addTitle,#addTitle2{
+    text-align: center;
+    background-color: rgb(149, 224, 199);
+  }
+
+  #addTitle2{
+    margin-top: 5%;
+  }
+  #restrictedForm{
+    width:90%;
+    margin: auto;
+    border: 5px grey double;
+    
+  }
+
+
+
+#myList #restricted{
+    width:370px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#myList div hr{
+   border:3px outset rgb(6, 106, 51);
+   box-shadow: 3px 3px grey;
+    
+}

@@ -1,0 +1,70 @@
+@font-face {
+    font-family: identity;
+    src: url(../../Components/assets/fonts/IdentifyDemoRegular-eZ6Bp.ttf)
+}
+
+@font-face {
+    font-family: stickynote;
+    src: url(../../Components/assets/fonts/StickyMemosDemo-gxLop.otf)
+}
+
+#studentName {
+    font-family: identity;
+    font-size: 30px;
+    color: rgb(28,28,20);
+    font-weight: 400;
+    text-shadow: 4px 10px 6px rgb(55, 129, 232);
+    margin-top: 2%;
+    padding-top: 40px;
+    
+}
+
+#dueHeader {
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: stickynote;
+    color: black;
+    font-size: 110px;
+    font-weight: 500;
+    text-shadow: 4px 2px 2px rgb(123, 122, 214);
+}
+
+#dueList {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#checkoutsticky{
+background: url("../../Components/assets/images/editedbluesticky.jpg") no-repeat  ;
+background-size: cover;
+width:max-content;
+height:fit-content;
+padding-left: 2%;
+padding-right: 1%;
+padding-top: 4%;
+margin-left: 4%;
+border-radius: 20px;
+text-align: left;
+
+
+}
+#red{
+    color:red;
+   
+}
+#duebutton{
+    border-radius: 10px;
+    background-color: rgb(165, 237, 213);
+    box-shadow: 0px 7.5px grey;
+}
+
+#duebutton:active{
+ 
+    background-color: rgb(138, 202, 181);
+    box-shadow: 0px 5px grey;
+    transform: translateY(4px);
+}
+
+

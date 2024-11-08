@@ -1,0 +1,53 @@
+
+#nav-ul{
+    z-index: 2;
+      position:fixed;
+      top:0;
+      width:100%;
+      list-style-type: none;
+      /* overflow: hidden; */
+      background:linear-gradient(to right,#000000,rgb(51, 144, 165),#000000);
+      margin:0;
+   
+    }
+    #nav-ul a.active{
+      background-color: rgb(69, 163, 171);
+      color: white;
+    }
+    nav{
+      margin-bottom: 5%;
+    }
+    
+    /* Style the topnav links */
+    nav a,.nav-item {
+      font-size: 40px;
+      float: left;
+      display: block;
+      text-align: center;
+      padding: 10px 14px;
+      text-decoration: none;
+      
+    }
+    .nav-item {
+      color:rgb(42, 152, 164);
+      text-shadow: 2px 2px grey;
+    }
+    .dropdown-menu{
+      background-color: #8ec6bc;
+      
+    }
+    /* Change color on hover */
+    nav a:hover {
+      background-color: #b8eee4;
+      color: black;
+    }
+
+      
+      
+   
+    
+
+    
+    
+    
+    
