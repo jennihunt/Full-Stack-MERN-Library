@@ -81,11 +81,11 @@ The creation of this application came about because our institution had a need f
 
 1. Clone the repository:
    ```sh
-   git clone http://45.55.66.15/375961/library-app-for-library.git
+   git clone [https://github.com/jennihunt/Full-Stack-MERN-Library.git]
    ```
 2. Navigate to the project directory:
    ```sh
-   cd Libray-App-for-Library
+   cd Full-Stack-MERN-Libray
    ```
 3. Install the dependencies:
    ```sh
